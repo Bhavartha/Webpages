@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+.code{
+    flex:1 0 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;   
+    max-width: 50%; 
+}
+
+.op{
+    flex:1 0 0;
+    display: flex;
+    max-width: 50%;
+    flex-flow: column;
+    align-items: center;
+}
+.op div{
+    max-width: 95%;
+    word-wrap: wrap;
+    align-self: start;
+}
+
+textarea{
+    resize: none;
+    width: 90%;
+    height: 90%;
+}
+
+html,body , #vue-app{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
